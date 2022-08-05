@@ -1,0 +1,55 @@
+[
+    {
+        "id": "60bef7f7965b94d1",
+        "type": "tab",
+        "label": "플로우 1",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "2e98e3bc50ea5dba",
+        "type": "EMOTIV",
+        "z": "60bef7f7965b94d1",
+        "name": "EMOTIV",
+        "x": 160,
+        "y": 200,
+        "wires": [
+            [
+                "bf630886f33a411b"
+            ]
+        ]
+    },
+    {
+        "id": "bf630886f33a411b",
+        "type": "Frequency-Band-Power",
+        "z": "60bef7f7965b94d1",
+        "name": "Frequency Band Powers",
+        "freq": 0,
+        "headset": "Insight",
+        "sensor": 0,
+        "x": 450,
+        "y": 200,
+        "wires": [
+            [
+                "e5b84d4ca29ea69d"
+            ]
+        ]
+    },
+    {
+        "id": "e5b84d4ca29ea69d",
+        "type": "debug",
+        "z": "60bef7f7965b94d1",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 750,
+        "y": 200,
+        "wires": []
+    }
+]

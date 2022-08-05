@@ -1,0 +1,11 @@
+{
+    "projects": {
+        "EEGbased-Nodered": {
+            "credentialSecret": false
+        },
+        "test": {
+            "credentialSecret": false
+        }
+    },
+    "activeProject": "EEGbased-Nodered"
+}
